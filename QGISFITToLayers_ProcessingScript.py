@@ -96,6 +96,6 @@ class FitFilesToPaths(QgsProcessingAlgorithm):
     #Required bs
     def name(self): return 'fitfiles_to_paths'
     def displayName(self): return 'FIT Files To Paths'
-    def group(self): return 'NB Custom Scripts'
-    def groupId(self): return 'nbcustomscripts'
+    def group(self): return 'Custom Scripts'
+    def groupId(self): return 'customscripts'
     def createInstance(self): return FitFilesToPaths()
